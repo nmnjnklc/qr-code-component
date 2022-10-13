@@ -6,6 +6,7 @@
 }
 
 body {
+    padding: 1rem;
     background-color: #d6e2f0;
     width: 100vw;
     height: 100vh;
@@ -44,4 +45,14 @@ img {
     margin-top: 1rem;
     font-size: 15px;
     color: #7b879d;
+}
+
+@media only screen and (max-width: 375px) {
+    .card {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
 }
